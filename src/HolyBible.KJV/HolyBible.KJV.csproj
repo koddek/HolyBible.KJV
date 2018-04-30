@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>Robinson Small</Authors>
+    <Authors>CodeDek</Authors>
     <Company>CodeDek</Company>
     <Description>This is a library of the Holy Bible King James Version (KJV). Use Find to get any passage of scripture that you want or to search for a particular phrase or text. The KJV bible database used was taken from http://biblehub.com.</Description>
     <Copyright>Copyright © 2018 CodeDek. All Rights Reserved.</Copyright>

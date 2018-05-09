@@ -1,7 +1,7 @@
 # HolyBible.KJV
 
 [![GitHub license](https://img.shields.io/github/license/codedek/HolyBible.KJV.svg)]()<!--(https://github.com/codedek/CodeDek.Ini/blob/master/LICENSE)-->
-[![GitHub release](https://img.shields.io/github/release/codedek/HolyBible.KJV.svg)]()<!--(https://github.com/codedek/HolyBible.KJV/releases/latest)-->[![Github All Releases](https://img.shields.io/github/downloads/codedek/HolyBible.KJV/total.svg)]()
+[![GitHub release](https://img.shields.io/github/release/codedek/HolyBible.KJV.svg)]()<!--(https://github.com/codedek/HolyBible.KJV/releases/latest)--><!--[![Github All Releases](https://img.shields.io/github/downloads/codedek/HolyBible.KJV/total.svg)]()-->
 <!--[![Github downloads](https://img.shields.io/github/downloads/codedek/HolyBible.KJV/v.0.1/total.svg)]()-->
 <!---![Github Releases](https://img.shields.io/github/downloads/codedek/HolyBible.KJV/latest/total.svg)-->
 

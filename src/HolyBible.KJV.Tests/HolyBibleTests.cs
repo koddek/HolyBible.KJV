@@ -1,4 +1,7 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -13,6 +16,24 @@ namespace HolyBible.KJV.Tests
     {
       _output = output;
       _bible = BibleFactory.GetBible();
+    }
+
+    [Fact]
+    public async void Bible_FindAllPassagesFromGenesis_Returns1533()
+    {
+      var bible = await BibleFactory.LoadBibleAsync();
+
+      var actual = bible.Find(Book.Genesis).Count();
+      _output.WriteLine(actual.ToString());
+      Assert.Equal(1533, actual);
+    }
+
+    [Fact]
+    public void Bible_FindAllPassagesFromGenesisChapterOne_Returns31()
+    {
+      var actual = _bible.Find(Book.Genesis, 1).Count();
+      _output.WriteLine(actual.ToString());
+      Assert.Equal(31, actual);
     }
 
     [Fact]
